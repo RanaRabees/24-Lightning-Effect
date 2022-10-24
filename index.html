@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Charging </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: algerian;
+            font-style: italic;
+            font-size: 62.5%;
+        }
+
+        body {
+            background-image: url('https://phoneky.co.uk/thumbs/screensavers/down/technology/charging_akbnhfp2.gif');
+            background-size: 100vw 100vh;
+            background-repeat: no-repeat;
+        }
+
+        .main_div {
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .center_div{
+            width: 50%;
+            height: auto;
+            color: #576574;
+        }
+        .center_div ul{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .center_div ul li{
+            list-style: none;
+            text-transform: uppercase;
+            font-size: 7rem;
+            padding-left: 2rem;
+            animation: light 1.3s linear infinite;        }
+        .center_div ul li:first-child{
+            padding-left: 0%;
+        }
+        /* Also I lIke It */
+        /* @keyframes light {
+            0%{
+                color: #576574;
+            }
+            90%{
+                color: #576574;
+            }
+            100%{
+                color: #f1c40f;
+                text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+            }
+        } */
+        @keyframes light {
+            0%{
+                color: #576574;
+                text-shadow: none;
+            }
+            90%{
+                color: #576574;
+                text-shadow: none;
+            }
+            100%{
+                color: #f1c40f;
+                text-shadow: 0 0 1rem #d35400, 0 0 7rem #d35400;
+            }
+        }
+        .center_div ul li:nth-child(1){
+            animation-delay: 0s;
+        }
+        .center_div ul li:nth-child(2){
+            animation-delay: 0.1s;
+        }
+        .center_div ul li:nth-child(3){
+            animation-delay: 0.2s;
+        }
+        .center_div ul li:nth-child(4){
+            animation-delay: 0.3s;
+        }
+        .center_div ul li:nth-child(5){
+            animation-delay: 0.4s;
+        }
+        .center_div ul li:nth-child(6){
+            animation-delay: 0.5s;
+        }
+        .center_div ul li:nth-child(7){
+            animation-delay: 0.6s;
+        }
+        .center_div ul li:nth-child(8){
+            animation-delay: 0.7s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="center_div">
+            <ul>
+                <li>C</li>
+                <li>H</li>
+                <li>A</li>
+                <li>R</li>
+                <li>G</li>
+                <li>I</li>
+                <li>N</li>
+                <li>G</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
